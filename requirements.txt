@@ -35,3 +35,5 @@ petact==0.1.2
 
 # dev setup tools
 pep8==1.7.0
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
