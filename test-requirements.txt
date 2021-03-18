@@ -6,3 +6,4 @@ cov-core==1.15.0
 mock==2.0.0
 sphinx==1.8.2
 sphinx-rtd-theme==0.4.2
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
