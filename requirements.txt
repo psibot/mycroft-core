@@ -1,5 +1,5 @@
 six==1.10.0
-cryptography==2.6.1
+cryptography==3.2
 requests==2.20.0
 gTTS==2.0.3
 gTTS-token==1.1.3
@@ -35,3 +35,4 @@ petact==0.1.2
 
 # dev setup tools
 pep8==1.7.0
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
