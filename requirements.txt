@@ -15,7 +15,7 @@ pyserial==3.0
 psutil==5.2.1
 pocketsphinx==0.1.0
 inflection==0.3.1
-pillow==4.1.1
+pillow==9.2.0
 python-dateutil==2.6.0
 pychromecast==3.2.2
 python-vlc==1.1.2
@@ -35,3 +35,5 @@ petact==0.1.2
 
 # dev setup tools
 pep8==1.7.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
